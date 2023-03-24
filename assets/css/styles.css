@@ -1,0 +1,32 @@
+/* common */
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #152427;
+    --thin-bg:#E2EDDF;
+    --dark-bg: #143C3C;
+}
+html,
+body {
+    scroll-behavior: smooth;
+}
+html {
+    font-family: "Poppins", sans-serif;
+    font-family: "Public Sans", sans-serif;
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    height: 5000px;
+}
+/* Common */
+.container {
+    width: 1140px;
+    max-width: calc(100%-48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
