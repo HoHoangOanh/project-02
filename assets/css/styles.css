@@ -140,14 +140,44 @@ a {
     gap: 36px;
 }
 .hero__media {
+    position: relative;
     display: flex;
     gap: 20px;
-    background: linear-gradient(
-        360deg,
-        transparent 10%,
-        #4dbb9a,
-        transparent 90%
-    );
+}
+.hero__media img {
+    z-index: 1;
+}
+.hero__figure,
+.hero__pattern {
+    position: absolute;    
+}
+.hero__pattern {
+    top: 122px;
+    right: 150px;
+    width: 340px;
+    height: 340px;
+    background: #4dbb9a;
+    filter: blur(137px);
+}
+.hero__figure-1 {
+    position: absolute;
+    top: 9px;
+    right: 214px;
+}
+.hero__figure-2 {
+    position: absolute;
+    top: -108px;
+    right: -300px;
+}
+.hero__figure-3 {
+    position: absolute;
+    bottom: -43px;
+    right: 27px;
+}
+.hero__figure-4 {
+    position: absolute;
+    left: 31px;
+    bottom: -71px;
 }
 .hero__media img:nth-child(2) {
     margin-top: 109px;
