@@ -266,7 +266,7 @@ a {
     grid-gap: 16px;
 }
 .service-item {
-    transition: 0.25s;    
+    transition: 0.25s;
 }
 
 .service-item__info {
@@ -280,7 +280,7 @@ a {
     padding-left: 18px;
     padding-bottom: 23px;
     border-radius: 0px 0px 20px 20px;
-    background: #efefef;    
+    background: #f0eded;
     cursor: pointer;
     border-color: transparent;
     border: 0.5px solid transparent;
@@ -314,4 +314,187 @@ a {
     font-size: 1.4rem;
     line-height: 1.71;
     color: #7d8188;
+}
+/* About */
+.about {
+    margin-top: 57px;
+    margin-bottom: 79px;
+}
+.about-body {
+    display: flex;
+}
+.about__images {
+    position: relative;
+    display: flex;
+    column-gap: 21px;
+    margin-right: 64px;
+}
+.about__img--1,
+.about__img--2 {
+    width: 284px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 210px;
+    box-shadow: 0px 4px 234px 11px rgba(59, 137, 71, 0.25);
+}
+.about__img--1 {
+    margin-left: 0;
+    margin-top: 90px;
+}
+.about__img--2 {
+    margin-top: 13px;
+}
+.about-media {
+    position: relative;
+}
+.about-sumary {
+    position: absolute;
+    top: 405px;
+    right: 55px;
+    font-family: "Public Sans";
+    font-style: normal;
+    width: 143px;
+    height: 144px;
+    background: #ffffff;
+    box-shadow: 0px 7px 54px rgba(154, 154, 154, 0.25);
+    border-radius: 8px;
+    padding: 19px 17px 11px 17px;
+}
+.about-pattern--1 {
+    position: absolute;
+    top: -22px;
+    left: 49px;
+}
+.about-pattern--2 {
+    position: absolute;
+    transform: rotate(12.64deg);
+    width: 541.69px;
+    height: 360.64px;
+    left: 51.18px;
+    top: 23.11px;
+}
+.about-sumary__title {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #152427;
+}
+.about-sumary__desc {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #575d5e;
+    opacity: 0.4;
+}
+.about-sumary__value {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #152427;
+}
+.about-sumary__images::after {
+    display: block;
+    content: "";
+    width: 56px;
+    height: 2px;
+    background: #eaeaea;
+    border-radius: 10px;
+}
+.about-sumary__images {
+    width: 96px;
+    margin-bottom: 3px;
+    display: flex;
+}
+.about-sumary__continue {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #152427;
+}
+.about-sumary__logo {
+    margin-bottom: 4px;
+}
+.about-sumary__avatar-group .about__title {
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.12;
+    color: #152427;
+}
+.about__title::before {
+    margin-right: 21px;
+    margin-bottom: 6px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background: #152427;
+}
+.about__desc {
+    margin-top: 11px;
+    margin-bottom: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #7d8188;
+}
+
+.about-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #83a17d;
+}
+.about-value:last-child {
+    margin-top: 36px;
+}
+.about-value__stats {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.24;
+    color: #152427;
+}
+.about-value__desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #7d8188;
+}
+.avatar-group {
+    display: flex;
+    justify-content: space-between;
+}
+.about-sumary__avatar-info {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #152427;
+}
+.about-sumary__avatar {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.about-sumary__avatar-group img {
+    margin-left: -8px;
+}
+.about-sumary__avatar-group:first-child img {
+    margin-left: 0px;
 }
