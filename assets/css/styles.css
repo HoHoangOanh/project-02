@@ -310,7 +310,7 @@ a {
     padding-left: 18px;
     padding-bottom: 23px;
     border-radius: 0px 0px 20px 20px;
-    background: #f0eded;
+    background: #fff;
     cursor: pointer;
     border-color: transparent;
     border: 0.5px solid transparent;
@@ -450,6 +450,9 @@ a {
 .about-sumary__logo {
     margin-bottom: 4px;
 }
+.about__title {
+    margin-bottom: 20px;
+}
 .about-sumary__avatar-group .about__title {
     margin-bottom: 20px;
     font-family: "Poppins";
@@ -581,7 +584,7 @@ a {
     border-radius: 33px;
     cursor: pointer;
 }
-.process-row:hover.process-row::after {    
+.process-row:hover.process-row::after {
     display: none;
 }
 .process-row:hover .process-row__link {
@@ -669,4 +672,58 @@ a {
     object-fit: cover;
     bottom: 0px;
     right: 92px;
+}
+
+/* Past */
+.past {
+    background: var(--dark-bg);
+}
+.past-body {
+    padding: 116px 0 63px 0;
+}
+.past-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 93px;
+    margin-bottom: 65px;
+}
+.past__heading {
+    position: relative;
+    color: #e7f9f9;
+}
+.past__heading::after {
+    position: absolute;
+    bottom: 21px;
+    right: 96px;
+    display: inline-block;
+    content: "";
+    width: 66px;
+    height: 2px;
+    background: #83a17d;
+}
+.past__desc {
+    margin-bottom: 13px;
+    width: 590px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #6a8383;
+}
+.past__link {
+    margin-right: 23px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #ffffff;
+}
+.past__video {
+    width: 1140px;
+height: 544px;
+border-radius: 22px;
+object-fit: cover;
 }
